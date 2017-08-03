@@ -3,6 +3,11 @@ import { Form,Header,Table,Label } from 'semantic-ui-react';
 
 
 class Calculator extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
 	render() {
 		return (
 			<div>
