@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form,Header } from 'semantic-ui-react';
+import { Form,Header,Table } from 'semantic-ui-react';
 
 
 class Calculator extends Component {
