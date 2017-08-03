@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form,Header,Table } from 'semantic-ui-react';
+import { Form,Header,Table,Label } from 'semantic-ui-react';
 
 
 class Calculator extends Component {
@@ -29,6 +29,59 @@ class Calculator extends Component {
       					<input placeholder='221.53' />
    	 				</Form.Field>
   				</Form>
+
+          <Header as='h3'>Earnings(ETH)</Header>
+  				<Table celled>
+            <Table.Header>
+              <Table.Row>
+                <Table.HeaderCell>Period</Table.HeaderCell>
+                <Table.HeaderCell>ETH</Table.HeaderCell>
+                <Table.HeaderCell>USD</Table.HeaderCell>
+              </Table.Row>
+            </Table.Header>
+
+            <Table.Body>
+
+              <Table.Row>
+                <Table.Cell>
+                  <Label>Minute</Label>
+                </Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+              </Table.Row>
+
+              <Table.Row>
+                <Table.Cell>Hour</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+              </Table.Row>
+
+              <Table.Row>
+                <Table.Cell>Day</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+              </Table.Row>
+
+              <Table.Row>
+                <Table.Cell>Week</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+              </Table.Row>
+
+              <Table.Row>
+                <Table.Cell>Month</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+              </Table.Row>
+
+              <Table.Row>
+                <Table.Cell>Year</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Cell</Table.Cell>
+              </Table.Row>
+
+            </Table.Body>
+          </Table>
 			</div>
 		)
 	}
