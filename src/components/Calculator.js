@@ -4,6 +4,7 @@ class Calculator extends Component {
 	render() {
 		return (
 			<div>
+			Calculator
 			</div>
 		)
 	}
